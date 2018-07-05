@@ -8,9 +8,10 @@
 body {
     max-width: 900px;
     margin: auto;
+    font-family: sans-serif;
 }
 
-section {
+section, footer {
     margin: 20px auto;
     align-items: center;
     text-align: center;
@@ -52,6 +53,7 @@ h2 {
     align-items: center;
     justify-content: space-around;
     padding: 5px;
+    border-radius: 0 0 10px 10px;
 }
 
 #nav-bar a {
@@ -64,6 +66,18 @@ text-align: center;
 
 #nav-bar a:hover {
     background-color: rgb(247, 214, 188);
+}
+
+#features ul {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    text-align: left;
+    grid-gap: 0.5em 1em;
+}
+
+#about p {
+    max-width: 700px;
+    margin: auto;
 }
 
 #form {
@@ -103,6 +117,16 @@ text-align: center;
 
 #form #submit {
     margin-left: .5em;
+}
+
+footer {
+    text-align: center;
+    background-color: #FA9344;
+    border-radius: 10px 10px 0 0 ;
+}
+
+footer p{
+    display: inline-block;
 }
 
 @media (max-width: 630px) {
