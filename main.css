@@ -22,7 +22,7 @@ h1, h2, #nav-bar {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     top: -150px;
 }
 
@@ -31,21 +31,32 @@ h2 {
 }
 
 #header {
- position: sticky;
- top: -327px;
  text-align: center;
+ background-color: white;
+ position: sticky;
+ top: 0px;
+}
+
+#titleAndLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 #header-img {
+    height: 75px;
+    margin: 10px;
+}
+
+#factoryimg {
     height: 200px;
     min-width: 80%;
     object-fit: cover;
+    display: block;
     margin: 0 auto;
 }
 
 #nav-bar {
-    position: sticky;
-    top: 10px;
     overflow: visible;
     display: flex;
     width: 100%;
